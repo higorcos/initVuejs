@@ -4,7 +4,7 @@
     <img alt="Vue logo" src="./assets/logo.png">
     <h1>New project</h1>
     <ClienteCrud/>
-    <ProdutoCrud/>
+    <ProdutoCrud nome="PC" descricao="Intel i7"/>
   </div>
 </template>
 
