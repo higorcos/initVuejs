@@ -1,8 +1,8 @@
 <template>
     <div>
-        <h3>Meu produto: {{ nome }}</h3>
+        <h3>Meu produto: {{ produto.nome }}</h3>
         <h4>Descrição do produto</h4>
-        <p>{{ descricao }}</p>
+        <p>{{ produto.descricao }}</p>
     </div>
   
 </template>
@@ -15,9 +15,7 @@ export default {
      }
     },
     props: {
-        nome: String,
-        descricao: String,
-    
+        produto: Object,
     },
 }
 </script>
